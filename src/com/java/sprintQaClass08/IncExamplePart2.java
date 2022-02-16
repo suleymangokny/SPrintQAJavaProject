@@ -1,0 +1,18 @@
+package com.java.sprintQaClass08;
+
+public class IncExamplePart2 {
+
+	public static void main(String[] args) {
+		
+		int a = 1;
+
+		System.out.println(a);     //1  a=1
+		System.out.println(a++ );  //1  a=2
+		System.out.println(++a);   //3  a=3
+		System.out.println(a++);   //3  a=4
+		System.out.println(++a);  //5   a=5
+		System.out.println(++a);  //6   a=6
+		
+	}
+
+}
